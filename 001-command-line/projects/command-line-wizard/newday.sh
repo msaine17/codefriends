@@ -11,9 +11,10 @@
 # 7. Pad the next day with zeros as the directory prefix
 
 # 8. Create the new files and directories
-mkdir ~/codefriends/$1/projects
+mkdir ~/codefriends/$1
 mkdir ~/codefriends/$1/projects
 touch ~/codefriends/$1/notes.md 
 touch ~/codefriends/$1/projects/.gitkeep
+
 
 echo "Created ~/codefriends/$1"
